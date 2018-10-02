@@ -1,0 +1,5 @@
+<div *ngIf="books$">
+  <mat-accordion *ngFor="let book of books$ | async">
+    <app-book-details [book]="book"></app-book-details>
+  </mat-accordion>
+</div>

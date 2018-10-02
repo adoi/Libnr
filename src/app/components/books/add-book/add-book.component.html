@@ -1,0 +1,28 @@
+<div class="example-container">
+    <h3 class="book--addition">Add a book to your library!</h3>
+    <div class="row">
+        <mat-form-field class="book--id">
+            <input type="number" matInput placeholder="Book Id" required #id>
+        </mat-form-field>
+        <mat-form-field class="book--title">
+            <input matInput placeholder="Book Title" #title>
+        </mat-form-field>
+    </div>
+
+    <mat-form-field>
+        <textarea rows="5" matInput placeholder="Book Description" #description></textarea>
+    </mat-form-field>
+
+    <div class="row">
+        <mat-form-field class="book--category">
+            <input type="text" matInput placeholder="Author(s)" #author>
+        </mat-form-field>
+
+        <mat-form-field class="pages">
+            <input type="number" matInput placeholder="Pages" #pages>
+        </mat-form-field>
+    </div>
+    <button mat-flat-button color="primary" class="submit--btn" (click)="addBook(id.value, title.value, description.value, author.value, pages.value)">
+        ADD
+    </button>
+</div>
