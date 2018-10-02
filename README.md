@@ -1,27 +1,12 @@
-# Libnr
+# Angular 7, Angular Material and NGXS state management pattern
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
+### This is a simple project showcasing another way to manage state in an Angular application using the NGXS state management pattern.
 
-## Development server
+### NGXS is modeled after the CQRS which is a pattern that both Redux and NGRX implement. 
+### The advantages that NGXS gives is that it reduces the boilerplate, it enables us to use dependency injection, and it enables us to use promises when we need them :).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Check out the docs at [NGXS](https://ngxs.gitbook.io/ngxs/)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Developed by [Adonis Murati](https://github.com/adoi)
