@@ -1,0 +1,36 @@
+mat-toolbar {
+    max-height: 80px;
+    box-shadow: 1px 10px 10px;
+}
+
+mat-toolbar-row {
+    justify-content: center;
+}
+
+.toolbar--title {
+    margin: 1rem 0; 
+    font-size: 2.5rem;
+}
+
+.toolbar--desc {
+    font-size: 1rem;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b5797;
+}
+
+app-add-book {
+    width: 30%;
+    height: calc(100vh - 80px);
+    background-color: white;
+}
+
+app-books-list {
+    width: 70%;
+    padding: 1rem;
+}

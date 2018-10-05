@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Libnr';
+  title = 'Libnr NGXS';
+  description = 'State management in an Angular application with NGXS!';
 }
